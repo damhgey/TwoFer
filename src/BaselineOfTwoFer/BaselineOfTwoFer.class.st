@@ -15,3 +15,8 @@ BaselineOfTwoFer >> baseline: spec [
 					package: 'TwoFer-Tests' with: [ spec requires: #('TwoFer') ].
 		]
 ]
+
+{ #category : #accessing }
+BaselineOfTwoFer >> projectClass [
+	^ MetacelloCypressBaselineProject
+]
